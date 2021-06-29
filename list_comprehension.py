@@ -14,3 +14,5 @@ print(tuple([x for x in num if x%2==0]))
 
 evenlist = filter(lambda i: i%2 == 0,num)
 print(list(evenlist))
+
+
