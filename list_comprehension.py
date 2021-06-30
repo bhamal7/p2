@@ -3,6 +3,7 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print("I like {} but dont like {}".format(thislist[0],thislist[4]))
 print(thislist[::-1])
 print(thislist[:3])
+#List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
 newlist = [x for x in thislist if "a" in x]
 print(newlist)
 
