@@ -2,9 +2,11 @@
 
 class First:
     #initialize a constructor
+    kind = 'Human'    # this is class variable assign inside the class
     def __init__(self,name,age):
         self.name = name
         self.age = age
+        #name , age are instance variable which assign inside the constructor and method
 
     #define a method
     def Method(self):
