@@ -19,6 +19,7 @@ class Nepal():
         print("Nepal is developing country")
 
 class USA():
+    # overriding method
     def Capital(hi):
         print("The capital of USA is Washiton DC")
     def Language(hi):

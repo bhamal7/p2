@@ -4,18 +4,21 @@
 from abc import ABC,abstractmethod
 class Base(ABC):
 
-    @abstractmethod
+    @abstractmethod #abstract method— methods having definition but no implementation
     def Eat(self):
         pass
 class lion():
+    # overriding abstract method
     def eat(self):
         print("Lion eat deer")
     
 class deer():
+    # overriding abstract method
     def eat(self):
         print("Deer eat grass")
 
 class dog():
+    # overriding abstract method
     def eat(self):
         print("Dog eat bones")
 
