@@ -1,6 +1,6 @@
-list1 = [x for x in range(1,21)]
-for x in list1:
-    if x % 2 == 0:
-        print(x,"is even")
-    else:
-        print(x,"is odd")
+#using break control statements
+string1 = "Hello world"
+for i in string1:
+    if i == 'o':
+        continue
+    print(i)
